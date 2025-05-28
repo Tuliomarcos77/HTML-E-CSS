@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #6b0b83;
+    --secondary-color: #25085c;
+    --tertiary-color: #282828;
+    --quaternary-color: #303030;
+    --quinary-color: #383838;
+    --senary-color: #404040;
+    --septenary-color: #484848;
+    --octonary-color: #505050;
+    --nonary-color: #585858;
+    --denary-color: #606060;
+
+}
+
+body {
+    background-color: var(--primary-color);
+    color: rgb(220, 220, 220);
+}
